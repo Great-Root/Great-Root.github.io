@@ -31,9 +31,11 @@ twitter_username: Great-Root
 github_username: Great-Root
 
 # Build settings
-remote_theme: pages-themes/hacker@v0.2.0
+# remote_theme: pages-themes/hacker@v0.2.0
+theme: jekyll-theme-hacker
 plugins:
-  - jekyll-remote-theme
+  - jekyll-theme-hacker
+  # - jekyll-remote-theme
   - jekyll-feed
 # Exclude from processing.
 # The following items will not be processed, by default.
