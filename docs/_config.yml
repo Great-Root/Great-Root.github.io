@@ -28,13 +28,13 @@ domail: Great-Root.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Great-Root.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Great-Root
-github_username:  Great-Root
+github_username: Great-Root
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/hacker@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
